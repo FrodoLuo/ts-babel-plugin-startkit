@@ -2,6 +2,8 @@
 
 This project is created for quickly set up a babel plugin development project using TypeScript(For I think that TS is a really good language to develop babel plugins)
 
+If you are looking for babel plugin for converting TS to JS, go and see [this](https://babeljs.io/docs/en/next/babel-plugin-transform-typescript.html) please :D
+
 And this project is not stably developed, no any ensure for the usage, and it may cause something issues.
 
 ## Usage
