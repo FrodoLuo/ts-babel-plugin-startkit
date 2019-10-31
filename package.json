@@ -1,0 +1,23 @@
+{
+  "name": "<DO_CHANGE_YOUR_PLUGIN_NAME>",
+  "version": "0.0.1",
+  "description": "<DO_CHANGE_YOUR_PLUGIN_NAME>",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm run build && cd test && babel ./src/index.js -d ./dist",
+    "build": "npm run clean && tsc",
+    "clean": "rm -rf ./lib",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "spaceluo",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.6.2",
+    "@types/babel__core": "^7.1.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "typescript": "^3.6.4"
+  }
+}

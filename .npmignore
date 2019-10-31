@@ -1,0 +1,18 @@
+
+# Dependencies
+node_modules/
+
+# Source and test code
+src/
+test/
+
+# Lock files and config files
+yarn.lock
+package-lock.json
+tsconfig.json
+tslint.json
+
+# File system and workspace configs.
+.vscode
+.idea
+.DS_Store
